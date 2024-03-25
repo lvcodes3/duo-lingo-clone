@@ -19,7 +19,7 @@ export const Sidebar = ({ className }: { className?: string }) => {
         <div className="pt-8 pl-4 pb-7 flex items-center gap-x-3">
           <Image src="/mascot.svg" alt="Mascot" width={40} height={40} />
           <h1 className="text-2xl font-extrabold text-green-600 tracking-wide">
-            Duo Lingo Clone
+            Duolingo Clone
           </h1>
         </div>
       </Link>
