@@ -1,5 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
+import { Loader } from "lucide-react";
 import {
   ClerkLoaded,
   ClerkLoading,
@@ -8,7 +9,6 @@ import {
   SignedIn,
   SignedOut,
 } from "@clerk/nextjs";
-import { Loader } from "lucide-react";
 
 import { Button } from "@/components/ui/button";
 

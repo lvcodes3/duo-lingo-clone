@@ -1,10 +1,10 @@
 "use client";
 
 import Link from "next/link";
+import Image from "next/image";
 import { usePathname } from "next/navigation";
 
 import { Button } from "./ui/button";
-import Image from "next/image";
 
 type Props = {
   label: string;
@@ -23,9 +23,15 @@ export const SidebarItem = ({ label, iconSrc, href }: Props) => {
       asChild
     >
       <Link href={href}>
-        <Image src={iconSrc} alt={label} height={32} width={32} className="mr-5" />
+        <Image
+          src={iconSrc}
+          alt={label}
+          height={32}
+          width={32}
+          className="mr-5"
+        />
         {label}
-    </Link>
+      </Link>
     </Button>
   );
 };

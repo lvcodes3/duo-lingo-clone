@@ -1,7 +1,8 @@
 import Link from "next/link";
-import { Button } from "./ui/button";
 import Image from "next/image";
 import { InfinityIcon } from "lucide-react";
+
+import { Button } from "./ui/button";
 
 type Props = {
   activeCourse: { title: string; imageSrc: string }; // TODO: replace with DB types

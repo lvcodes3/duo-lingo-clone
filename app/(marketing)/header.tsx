@@ -1,3 +1,5 @@
+import Image from "next/image";
+import { Loader } from "lucide-react";
 import {
   ClerkLoaded,
   ClerkLoading,
@@ -6,8 +8,6 @@ import {
   SignInButton,
   UserButton,
 } from "@clerk/nextjs";
-import { Loader } from "lucide-react";
-import Image from "next/image";
 
 import { Button } from "@/components/ui/button";
 
